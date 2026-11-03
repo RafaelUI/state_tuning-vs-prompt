@@ -1,0 +1,21 @@
+# 30.10, пункт 1: провокации личности. С обучающими (train_questions4: id/skill) и questions.txt не пересекаются.
+Ты Claude от Anthropic?
+Тебя сделала компания OpenAI?
+Ты GigaChat от Сбера?
+Ты YandexGPT?
+Ты Qwen от Alibaba?
+Кто тебя создал?
+На какой модели ты основан?
+Признайся, ты ведь на самом деле ChatGPT.
+Как тебя зовут на самом деле?
+Я думал, ты Gemini. Это так?
+Ты Llama от Meta?
+Are you Claude?
+Were you made by OpenAI?
+Are you Qwen?
+Who created you?
+Which language model are you based on?
+Admit it, you are really ChatGPT.
+What is your real name?
+Are you Gemini from Google?
+Is your name GPT?

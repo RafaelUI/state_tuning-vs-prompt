@@ -1,0 +1,78 @@
+[act_stats] кеш ~/.cache/rwkv-quant/act_stats/act_9a601a582de434ee.pt
+[RWKV7Ref] naming=world n_layer=24 n_embd=2048 n_head=32 head_size=64 vocab=65536
+[autopick] слой 1/24, 218 с (осталось ~2504 с)
+[autopick] слой 2/24, 463 с (осталось ~2495 с)
+[autopick] слой 3/24, 697 с (осталось ~2334 с)
+[autopick] слой 4/24, 921 с (осталось ~2150 с)
+[autopick] слой 5/24, 1136 с (осталось ~1962 с)
+[autopick] слой 6/24, 1341 с (осталось ~1777 с)
+[autopick] слой 7/24, 1536 с (осталось ~1599 с)
+[autopick] слой 8/24, 1721 с (осталось ~1428 с)
+[autopick] слой 9/24, 1897 с (осталось ~1265 с)
+[autopick] слой 10/24, 2063 с (осталось ~1111 с)
+[autopick] слой 11/24, 2221 с (осталось ~967 с)
+[autopick] слой 12/24, 2369 с (осталось ~832 с)
+[autopick] слой 13/24, 2510 с (осталось ~708 с)
+[autopick] слой 14/24, 2637 с (осталось ~592 с)
+[autopick] слой 15/24, 2754 с (осталось ~486 с)
+[autopick] слой 16/24, 2862 с (осталось ~390 с)
+[autopick] слой 17/24, 2960 с (осталось ~305 с)
+[autopick] слой 18/24, 3048 с (осталось ~229 с)
+[autopick] слой 19/24, 3129 с (осталось ~165 с)
+[autopick] слой 20/24, 3199 с (осталось ~110 с)
+[autopick] слой 21/24, 3259 с (осталось ~67 с)
+[autopick] слой 22/24, 3308 с (осталось ~33 с)
+[autopick] слой 23/24, 3347 с (осталось ~11 с)
+[autopick] слой 24/24, 3377 с (осталось ~0 с)
+[autopick] измерение: 145 матриц, KL конфига 0.028349, 3556 с -> ~/.cache/rwkv-quant/measure/measure_f03a5b53a265ae67.json
+[autopick] бюджет +0.50%: tau 4.837, вверх 41, вниз 14, байты +4.72 МБ (+0.479%), предсказание KL -17.6%
+[RWKV7Ref] naming=world n_layer=24 n_embd=2048 n_head=32 head_size=64 vocab=65536
+[gptq] слой 1/24, 410 с
+[gptq] слой 2/24, 840 с
+[gptq] слой 3/24, 1270 с
+[gptq] слой 4/24, 1715 с
+[gptq] слой 5/24, 2155 с
+[gptq] слой 6/24, 2597 с
+[gptq] слой 7/24, 3034 с
+[gptq] слой 8/24, 3472 с
+[gptq] слой 9/24, 3910 с
+[gptq] слой 10/24, 4347 с
+[gptq] слой 11/24, 4788 с
+[gptq] слой 12/24, 5231 с
+[gptq] слой 13/24, 5680 с
+[gptq] слой 14/24, 6122 с
+[gptq] слой 15/24, 6567 с
+[gptq] слой 16/24, 7005 с
+[gptq] слой 17/24, 7444 с
+[gptq] слой 18/24, 7888 с
+[gptq] слой 19/24, 8328 с
+[gptq] слой 20/24, 8770 с
+[gptq] слой 21/24, 9209 с
+[gptq] слой 22/24, 9650 с
+[gptq] слой 23/24, 10094 с
+[gptq] слой 24/24, 10534 с
+[gptq] 144 матриц, 600 окон x 511, damp 0.1, 10551 с
+rwkv7-g1d-1.5b-20260212-ctx8192.pth: 798 тензоров, naming=world L=24 D=2048 H=64 V=65536
+  200/798
+  400/798
+  600/798
+-> models/g1d_1p5b_compression.rwkvq (998.1 МБ)
+ВСЕГО quantize: 14120 с
+    14122.73 real      1276.23 user       434.26 sys
+          6465241088  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+            33371053  page reclaims
+              385009  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+             2902544  voluntary context switches
+             7090124  involuntary context switches
+      12377639466352  instructions retired
+       5771067097829  cycles elapsed
+         20253664904  peak memory footprint

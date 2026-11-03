@@ -1,0 +1,24 @@
+checkpoint config: n_layer=24 D=2048 H=32 S=64 vocab=65536
+model keys: 795, converter keys: 795
+  missing in converter: 0 []
+  extra in converter:   0 []
+  shape mismatches:     0 []
+saved -> models/g1d_1.5b.safetensors
+       85.23 real        28.10 user        52.36 sys
+          8213561344  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              944725  page reclaims
+                1399  page faults
+                   0  swaps
+                   0  block input operations
+                   2  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                2986  voluntary context switches
+               30463  involuntary context switches
+        379225371936  instructions retired
+        304666010458  cycles elapsed
+          9873628696  peak memory footprint

@@ -1,0 +1,83 @@
+# перенос формы (22.10): одна и та же единица (слово / пример) в двух формулировках —
+# T — шаблон обучающих фактов, P — новая формулировка, которой в обучении нет; с train_questions4 и checks.tsv не пересекается
+# единица <TAB> T|P <TAB> регэксп <TAB> вопрос
+tr00	T	\bknife	Переведи на английский слово «нож».
+tr00	P	\bknife	Как по-английски будет «нож»?
+tr01	T	\bspoon	Переведи на английский слово «ложка».
+tr01	P	\bspoon	Как по-английски будет «ложка»?
+tr02	T	\bmountain	Переведи на английский слово «гора».
+tr02	P	\bmountain	Как по-английски будет «гора»?
+tr03	T	\bforest|\bwoods?\b	Переведи на английский слово «лес».
+tr03	P	\bforest|\bwoods?\b	Как по-английски будет «лес»?
+tr04	T	\bbridge	Переведи на английский слово «мост».
+tr04	P	\bbridge	Как по-английски будет «мост»?
+tr05	T	\bheart	Переведи на английский слово «сердце».
+tr05	P	\bheart	Как по-английски будет «сердце»?
+tr06	T	\bhand\b|\barm\b	Переведи на английский слово «рука».
+tr06	P	\bhand\b|\barm\b	Как по-английски будет «рука»?
+tr07	T	\bkey\b	Переведи на английский слово «ключ».
+tr07	P	\bkey\b	Как по-английски будет «ключ»?
+tr08	T	\btrain\b	Переведи на английский слово «поезд».
+tr08	P	\btrain\b	Как по-английски будет «поезд»?
+tr09	T	\bship\b	Переведи на английский слово «корабль».
+tr09	P	\bship\b	Как по-английски будет «корабль»?
+te00	T	обув|ботин|туфл|башмак	Translate the word "shoe" into Russian.
+te00	P	обув|ботин|туфл|башмак	What is the Russian word for "shoe"?
+te01	T	кроват|постел	Translate the word "bed" into Russian.
+te01	P	кроват|постел	What is the Russian word for "bed"?
+te02	T	улиц	Translate the word "street" into Russian.
+te02	P	улиц	What is the Russian word for "street"?
+te03	T	\bсад	Translate the word "garden" into Russian.
+te03	P	\bсад	What is the Russian word for "garden"?
+te04	T	кухн	Translate the word "kitchen" into Russian.
+te04	P	кухн	What is the Russian word for "kitchen"?
+te05	T	остров	Translate the word "island" into Russian.
+te05	P	остров	What is the Russian word for "island"?
+te06	T	\bволк	Translate the word "wolf" into Russian.
+te06	P	\bволк	What is the Russian word for "wolf"?
+te07	T	медвед	Translate the word "bear" into Russian.
+te07	P	медвед	What is the Russian word for "bear"?
+te08	T	бабоч	Translate the word "butterfly" into Russian.
+te08	P	бабоч	What is the Russian word for "butterfly"?
+te09	T	врач|доктор	Translate the word "doctor" into Russian.
+te09	P	врач|доктор	What is the Russian word for "doctor"?
+ar00	T	\b28\b	Сколько будет 7 умножить на 4?
+ar00	P	\b28\b	Умножь 7 на 4.
+ar01	T	\b48\b	Сколько будет 6 умножить на 8?
+ar01	P	\b48\b	Умножь 6 на 8.
+ar02	T	\b27\b	Сколько будет 9 умножить на 3?
+ar02	P	\b27\b	Умножь 9 на 3.
+ar03	T	\b72\b	Сколько будет 8 умножить на 9?
+ar03	P	\b72\b	Умножь 8 на 9.
+ar04	T	\b63\b	Сколько будет 34 плюс 29?
+ar04	P	\b63\b	Сложи 34 и 29.
+ar05	T	\b88\b	Сколько будет 52 плюс 36?
+ar05	P	\b88\b	Сложи 52 и 36.
+ar06	T	\b35\b	Сколько будет 81 минус 46?
+ar06	P	\b35\b	Вычти 46 из 81.
+ar07	T	\b45\b	Сколько будет 73 минус 28?
+ar07	P	\b45\b	Вычти 28 из 73.
+ar08	T	\b12\b	Сколько будет 84 разделить на 7?
+ar08	P	\b12\b	Раздели 84 на 7.
+ar09	T	\b13\b	Сколько будет 91 разделить на 7?
+ar09	P	\b13\b	Раздели 91 на 7.
+ae00	T	\b40\b	What is 5 times 8?
+ae00	P	\b40\b	Multiply 5 by 8.
+ae01	T	\b24\b	What is 4 times 6?
+ae01	P	\b24\b	Multiply 4 by 6.
+ae02	T	\b81\b	What is 9 times 9?
+ae02	P	\b81\b	Multiply 9 by 9.
+ae03	T	\b63\b	What is 27 plus 36?
+ae03	P	\b63\b	Add 27 and 36.
+ae04	T	\b83\b	What is 45 plus 38?
+ae04	P	\b83\b	Add 45 and 38.
+ae05	T	\b35\b	What is 92 minus 57?
+ae05	P	\b35\b	Subtract 57 from 92.
+ae06	T	\b45\b	What is 64 minus 19?
+ae06	P	\b45\b	Subtract 19 from 64.
+ae07	T	\b8\b	What is 72 divided by 9?
+ae07	P	\b8\b	Divide 72 by 9.
+ae08	T	\b12\b	What is 96 divided by 8?
+ae08	P	\b12\b	Divide 96 by 8.
+ae09	T	\b15\b	What is 60 divided by 4?
+ae09	P	\b15\b	Divide 60 by 4.

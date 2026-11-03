@@ -1,0 +1,53 @@
+[RWKV7Ref] naming=world n_layer=24 n_embd=1024 n_head=16 head_size=64 vocab=65536
+[act_stats] 23 окон x 512 = 11776 токенов, 27 чанков, vocab 65536
+[act_stats] снято 145 тензоров за 111 с
+[RWKV7Ref] naming=world n_layer=24 n_embd=1024 n_head=16 head_size=64 vocab=65536
+[gptq] слой 1/24, 117 с
+[gptq] слой 2/24, 234 с
+[gptq] слой 3/24, 351 с
+[gptq] слой 4/24, 467 с
+[gptq] слой 5/24, 583 с
+[gptq] слой 6/24, 699 с
+[gptq] слой 7/24, 815 с
+[gptq] слой 8/24, 934 с
+[gptq] слой 9/24, 1057 с
+[gptq] слой 10/24, 1182 с
+[gptq] слой 11/24, 1308 с
+[gptq] слой 12/24, 1434 с
+[gptq] слой 13/24, 1556 с
+[gptq] слой 14/24, 1677 с
+[gptq] слой 15/24, 1797 с
+[gptq] слой 16/24, 1920 с
+[gptq] слой 17/24, 2041 с
+[gptq] слой 18/24, 2162 с
+[gptq] слой 19/24, 2284 с
+[gptq] слой 20/24, 2405 с
+[gptq] слой 21/24, 2525 с
+[gptq] слой 22/24, 2645 с
+[gptq] слой 23/24, 2765 с
+[gptq] слой 24/24, 2886 с
+[gptq] 144 матриц, 600 окон x 511, damp 0.1, 2893 с
+rwkv7-g1d-0.4b-20260210-ctx8192.pth: 798 тензоров, naming=world L=24 D=1024 H=64 V=65536
+  200/798
+  400/798
+  600/798
+-> models/g1d_0p4b_reduction.rwkvq (434.1 МБ)
+ВСЕГО quantize: 3008 с
+     3009.75 real       773.89 user       145.36 sys
+          5606670336  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             7444386  page reclaims
+               21872  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                3028  voluntary context switches
+             6859131  involuntary context switches
+      11538993032656  instructions retired
+       3268026524419  cycles elapsed
+          9283082168  peak memory footprint

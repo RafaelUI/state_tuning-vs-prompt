@@ -1,0 +1,80 @@
+Переведи на английский слово «нож».
+Как по-английски будет «нож»?
+Переведи на английский слово «ложка».
+Как по-английски будет «ложка»?
+Переведи на английский слово «гора».
+Как по-английски будет «гора»?
+Переведи на английский слово «лес».
+Как по-английски будет «лес»?
+Переведи на английский слово «мост».
+Как по-английски будет «мост»?
+Переведи на английский слово «сердце».
+Как по-английски будет «сердце»?
+Переведи на английский слово «рука».
+Как по-английски будет «рука»?
+Переведи на английский слово «ключ».
+Как по-английски будет «ключ»?
+Переведи на английский слово «поезд».
+Как по-английски будет «поезд»?
+Переведи на английский слово «корабль».
+Как по-английски будет «корабль»?
+Translate the word "shoe" into Russian.
+What is the Russian word for "shoe"?
+Translate the word "bed" into Russian.
+What is the Russian word for "bed"?
+Translate the word "street" into Russian.
+What is the Russian word for "street"?
+Translate the word "garden" into Russian.
+What is the Russian word for "garden"?
+Translate the word "kitchen" into Russian.
+What is the Russian word for "kitchen"?
+Translate the word "island" into Russian.
+What is the Russian word for "island"?
+Translate the word "wolf" into Russian.
+What is the Russian word for "wolf"?
+Translate the word "bear" into Russian.
+What is the Russian word for "bear"?
+Translate the word "butterfly" into Russian.
+What is the Russian word for "butterfly"?
+Translate the word "doctor" into Russian.
+What is the Russian word for "doctor"?
+Сколько будет 7 умножить на 4?
+Умножь 7 на 4.
+Сколько будет 6 умножить на 8?
+Умножь 6 на 8.
+Сколько будет 9 умножить на 3?
+Умножь 9 на 3.
+Сколько будет 8 умножить на 9?
+Умножь 8 на 9.
+Сколько будет 34 плюс 29?
+Сложи 34 и 29.
+Сколько будет 52 плюс 36?
+Сложи 52 и 36.
+Сколько будет 81 минус 46?
+Вычти 46 из 81.
+Сколько будет 73 минус 28?
+Вычти 28 из 73.
+Сколько будет 84 разделить на 7?
+Раздели 84 на 7.
+Сколько будет 91 разделить на 7?
+Раздели 91 на 7.
+What is 5 times 8?
+Multiply 5 by 8.
+What is 4 times 6?
+Multiply 4 by 6.
+What is 9 times 9?
+Multiply 9 by 9.
+What is 27 plus 36?
+Add 27 and 36.
+What is 45 plus 38?
+Add 45 and 38.
+What is 92 minus 57?
+Subtract 57 from 92.
+What is 64 minus 19?
+Subtract 19 from 64.
+What is 72 divided by 9?
+Divide 72 by 9.
+What is 96 divided by 8?
+Divide 96 by 8.
+What is 60 divided by 4?
+Divide 60 by 4.

@@ -1,0 +1,40 @@
+Лим	Какая столица Перу?
+Найроби	Какая столица Кении?
+Ки[её]в|Київ|Kyiv|Kiev	Какая столица Украины?
+Загреб	Какая столица Хорватии?
+Братислав	Какая столица Словакии?
+Абудж	Какая столица Нигерии?
+Толст	Кто написал «Анну Каренину»?
+Пушкин	Кто написал «Капитанскую дочку»?
+Достоевск	Кто написал роман «Идиот»?
+Булгаков	Кто написал роман «Белая гвардия»?
+\bO\b|кислород	Какой химический символ у кислорода?
+\bC\b	Какой химический символ у углерода?
+Волг	Какая самая длинная река в Европе?
+Каспи	Какое озеро самое большое в мире по площади?
+\b64\b	Сколько будет 16 умножить на 4?
+\b83\b	Сколько будет 45 плюс 38?
+\b45\b	Сколько будет 120 минус 75?
+\b13\b	Сколько будет 91 разделить на 7?
+\b3\b|тр[её]х|\bтри\b	Сколько сторон у треугольника?
+\b168\b	Сколько часов в неделе?
+Меркури	Какая планета самая маленькая в Солнечной системе?
+Шекспир	Кто написал трагедию «Отелло»?
+Франци	В какой стране находится Эйфелева башня?
+испанск	Какой язык официальный в Аргентине?
+Addis|Аддис	What is the capital of Ethiopia?
+Caracas|Каракас	What is the capital of Venezuela?
+Wells|Уэллс	Who wrote "The War of the Worlds"?
+Melville|Мелвилл	Who wrote "Moby-Dick"?
+Exup|Экзюпери	Who wrote "The Little Prince"?
+\bHe\b|гели	What is the chemical symbol for helium?
+Jupiter|Юпитер	Which planet has the Great Red Spot?
+\b90\b	What is 15 times 6?
+\b91\b	What is 72 plus 19?
+\b55\b	What is 144 minus 89?
+\b7\b|seven|семь	What is 56 divided by 8?
+\b4\b|four|четыр	How many strings does a standard violin have?
+Nile|Нил	What is the longest river in Africa?
+Egypt|Египет	In which country are the pyramids of Giza?
+German|немецк	What language is spoken in Austria?
+Beethoven|Бетховен	Who composed the "Moonlight Sonata"?

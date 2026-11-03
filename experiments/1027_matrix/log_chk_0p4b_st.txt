@@ -1,0 +1,24 @@
+checkpoint config: n_layer=24 D=1024 H=16 S=64 vocab=65536
+model keys: 795, converter keys: 795
+  missing in converter: 0 []
+  extra in converter:   0 []
+  shape mismatches:     0 []
+ключей 795 795 РАВНО
+       16.04 real         3.62 user        11.29 sys
+          2397339648  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              189632  page reclaims
+                 528  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1069  voluntary context switches
+               13739  involuntary context switches
+         86438714683  instructions retired
+         63998904106  cycles elapsed
+          3158854560  peak memory footprint

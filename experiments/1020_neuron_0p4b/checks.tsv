@@ -1,0 +1,204 @@
+# регэксп ответа (без учёта регистра) <TAB> вопрос; с train_questions*.txt не пересекается
+# 1–39 — прежний набор (checks39.tsv), 40–199 — добавлены 21.10; последняя строка — имя (считается отдельно)
+# проверка по ответам без промпта (12 на вопрос): деления 144/12 и 81/9 — ответ, а не делитель из вопроса; «машина» += automobile|vehicle; «good» += добрый
+# 21.10: у английских вопросов — и русская форма ответа (промпт и состояние на английский вопрос часто отвечают по-русски; язык ответа не проверяется)
+Париж	Какая столица Франции?
+Токио	Какая столица Японии?
+Рим	Какая столица Италии?
+Мадрид	Какая столица Испании?
+Оттав	Какая столица Канады?
+London|Лондон	What is the capital of England?
+Толст	Кто написал «Войну и мир»?
+Пушкин	Кто написал «Евгения Онегина»?
+Достоевск	Кто написал «Преступление и наказание»?
+Shakespeare|Шекспир	Who wrote "Romeo and Juliet"?
+Меркур	Какая планета ближе всего к Солнцу?
+Юпитер	Какая самая большая планета Солнечной системы?
+\b7\b|сем	Сколько континентов на Земле?
+\bAu\b	Какой химический символ у золота?
+100	При какой температуре кипит вода по Цельсию?
+Тих	Какой океан самый большой?
+Африк	На каком материке находится Египет?
+\b8\b|восем	Сколько ног у паука?
+углекисл|CO2|CO₂|диоксид углерода	Какой газ растения поглощают из воздуха?
+1961	В каком году человек впервые полетел в космос?
+Гагарин	Кто первым полетел в космос?
+\b56\b	Сколько будет 7 умножить на 8?
+\b42\b	Сколько будет 15 плюс 27?
+\b63\b	Сколько будет 100 минус 37?
+(=|равн\w*|будет|получится|ответ:?|^)\s*\**\s*12\b|двенадцат	Сколько будет 144 разделить на 12?
+\b92\b	Сколько будет 23 умножить на 4?
+\b25\b	What is 9 plus 16?
+\b36\b	Сколько будет 6 в квадрате?
+(=|равн\w*|будет|получится|ответ:?|^)\s*\**\s*9\b|девят	Сколько будет 81 разделить на 9?
+\bdog\b	Переведи на английский слово «собака».
+\bbook\b	Переведи на английский слово «книга».
+\bhouse\b|\bhome\b	Переведи на английский слово «дом».
+\bwater\b	Переведи на английский слово «вода».
+кот|кошк	Translate the word "cat" into Russian.
+спасибо	Translate "thank you" into Russian.
+\bred\b	Переведи на английский: «красный».
+366	Сколько дней в високосном году?
+\b24\b	Сколько часов в сутках?
+\b12\b|двенадцат	Сколько месяцев в году?
+Лондон	Какая столица Великобритании?
+Москв	Какая столица России?
+Афин	Какая столица Греции?
+Анкар	Какая столица Турции?
+Дели	Какая столица Индии?
+Буэнос	Какая столица Аргентины?
+Мехико	Какая столица Мексики?
+Осло	Какая столица Норвегии?
+Стокгольм	Какая столица Швеции?
+Хельсинк	Какая столица Финляндии?
+\bВен[аеуы]\b	Какая столица Австрии?
+Праг	Какая столица Чехии?
+Будапешт	Какая столица Венгрии?
+Астан|Нур-Султан	Какая столица Казахстана?
+Сеул	Какая столица Южной Кореи?
+Бангкок	Какая столица Таиланда?
+Дублин	Какая столица Ирландии?
+Амстердам	Какая столица Нидерландов?
+Washington|Вашингтон	What is the capital of the United States?
+Edinburgh|Эдинбург	What is the capital of Scotland?
+Brussels|Брюссел	What is the capital of Belgium?
+\bBern|\bБерн\b|\bБерн[еуа]\b	What is the capital of Switzerland?
+Tehran|Teheran|Тегеран	What is the capital of Iran?
+Santiago|Сантьяго	What is the capital of Chile?
+Bogot|Богот	What is the capital of Colombia?
+Jakarta|Джакарт	What is the capital of Indonesia?
+Manila|Манил	What is the capital of the Philippines?
+Wellington|Веллингтон	What is the capital of New Zealand?
+Riyadh|Эр-?Рияд|\bРияд	What is the capital of Saudi Arabia?
+Тургенев	Кто написал роман «Отцы и дети»?
+Лермонтов	Кто написал роман «Герой нашего времени»?
+Грибоедов	Кто написал комедию «Горе от ума»?
+Шолохов	Кто написал роман «Тихий Дон»?
+Гончаров	Кто написал роман «Обломов»?
+Островск	Кто написал пьесу «Гроза»?
+Пастернак	Кто написал роман «Доктор Живаго»?
+Ильф|Петров	Кто написал роман «Двенадцать стульев»?
+Austen|Остин	Who wrote "Pride and Prejudice"?
+Orwell|Оруэлл	Who wrote the novel "1984"?
+Hemingway|Хемингуэ	Who wrote "The Old Man and the Sea"?
+Rowling|Роулинг	Who wrote the "Harry Potter" books?
+Cervantes|Сервантес	Who wrote "Don Quixote"?
+Twain|Clemens|Твен	Who wrote "The Adventures of Tom Sawyer"?
+Dickens|Диккенс	Who wrote "Oliver Twist"?
+Dante|Alighieri|Алигьери|\bДанте\b	Who wrote "The Divine Comedy"?
+\bAg\b	Какой химический символ у серебра?
+\bNa\b	Какой химический символ у натрия?
+H2O|H₂O|Н2О|Н₂О	Какая химическая формула воды?
+Эверест|Джомолунгм	Какая самая высокая гора в мире?
+Байкал	Какое озеро самое глубокое в мире?
+Росси	Какая страна самая большая по площади?
+син\w* кит|голуб\w* кит	Какое животное самое большое на Земле?
+\b8\b|восем	Сколько планет в Солнечной системе?
+Земл	Какая планета третья по счёту от Солнца?
+сердц	Какой орган качает кровь по телу?
+\b46\b|сорок шест	Сколько хромосом у человека?
+Ньютон	Кто открыл закон всемирного тяготения?
+Эйнштейн	Кто создал теорию относительности?
+Менделеев	Кто создал периодическую таблицу химических элементов?
+ртут	Какой металл жидкий при комнатной температуре?
+алмаз	Какой природный минерал самый твёрдый?
+азот	Какого газа больше всего в атмосфере Земли?
+\bЛун	Как называется естественный спутник Земли?
+\b90\b|девяност	Сколько градусов в прямом угле?
+Чайковск	Кто написал музыку балета «Лебединое озеро»?
+Леонардо|да Винчи	Кто написал картину «Мона Лиза»?
+\bлев\b|\bльв	Какое животное называют царём зверей?
+Michelangelo|Микеланджело	Who painted the ceiling of the Sistine Chapel?
+Fleming|Флеминг	Who discovered penicillin?
+\bBell\b|\bБелл\b|\bБелл[еяю]\b	Who invented the telephone?
+Armstrong|Армстронг	Who was the first person to walk on the Moon?
+Sahara|\bСахар[аеуы]\b	What is the largest desert in Africa?
+giraffe|жираф	What is the tallest animal in the world?
+cheetah|гепард	What is the fastest land animal?
+\blungs?\b|\bл[её]гк(ие|их|ое|ими|им)\b	Which organ do humans use to breathe?
+Portuguese|португальск	What is the main language spoken in Brazil?
+\byen\b|\bиен[аыу]?\b|\bйен[аыу]?\b	What is the currency of Japan?
+\b11\b|\beleven\b|одиннадцат	How many players does a soccer team have on the field?
+\b32\b	At what temperature in Fahrenheit does water freeze?
+NaCl	What is the chemical formula of table salt?
+Мёртв|Мертв	Какое море самое солёное?
+Евраз|Ази	На каком материке находится Индия?
+Гибралтар	Какой пролив отделяет Европу от Африки?
+Гренланд	Какой остров самый большой в мире?
+Антаркт	Какой материк самый холодный?
+\b54\b	Сколько будет 9 умножить на 6?
+\b60\b	Сколько будет 12 умножить на 5?
+\b121\b	Сколько будет 11 умножить на 11?
+\b100\b	Сколько будет 25 умножить на 4?
+\b39\b	Сколько будет 3 умножить на 13?
+\b64\b	Сколько будет 8 умножить на 8?
+\b43\b	Сколько будет 17 плюс 26?
+\b85\b	Сколько будет 38 плюс 47?
+\b75\b	Сколько будет 56 плюс 19?
+\b62\b	Сколько будет 90 минус 28?
+\b33\b	Сколько будет 50 минус 17?
+\b145\b	Сколько будет 200 минус 55?
+\b9\b|девят	Сколько будет 72 разделить на 8?
+\b8\b|восем	Сколько будет 96 разделить на 12?
+\b50\b	Сколько будет 150 разделить на 3?
+\b169\b	Сколько будет 13 в квадрате?
+\b8\b|восем	Чему равен квадратный корень из 64?
+\b25\b	Чему равна половина от 50?
+\b63\b	What is 9 times 7?
+\b49\b	What is 14 plus 35?
+\b36\b	What is 100 minus 64?
+\b8\b|\beight\b|восем	What is 48 divided by 6?
+\b25\b|twenty-five|двадцать пят	What is 5 squared?
+\b9\b|\bnine\b|\bдевят[ьи]\b	What is the square root of 81?
+\b144\b	What is 12 times 12?
+\b500\b	What is 250 plus 250?
+\b45\b	What is half of 90?
+\b42\b	What is 7 times 6?
+\b100\b	What is 1000 divided by 10?
+\b52\b	Сколько недель в году?
+\b100\b|\bсто\b	Сколько сантиметров в метре?
+\b1[\s  ]?000\b|тысяч	Сколько метров в километре?
+\b28\b	Сколько дней в феврале в невисокосном году?
+\b100\b|\bсто\b	Сколько лет в одном веке?
+\b31\b	Сколько дней в июле?
+\b1[\s  ]?440\b	Сколько минут в сутках?
+\b1,?000\b|thousand|тысяч	How many grams are in a kilogram?
+3,?600	How many seconds are in an hour?
+\b10\b|\bten\b|\bдесять\b	How many years are in a decade?
+\b4\b|\bfour\b|\bчетыре\b	How many sides does a square have?
+\b30\b|thirty|тридцат	How many days are there in April?
+\bmother\b|\bmom\b|\bmum\b|\bmama\b	Переведи на английский слово «мама».
+\bwindow	Переведи на английский слово «окно».
+\btable\b|\bdesk\b	Переведи на английский слово «стол».
+\bmilk\b	Переведи на английский слово «молоко».
+\bcar\b|\bmachine\b|automobile|vehicle	Переведи на английский слово «машина».
+\bschool\b	Переведи на английский слово «школа».
+\bfriend\b	Переведи на английский слово «друг».
+\bmoon\b	Переведи на английский слово «луна».
+\bfish\b	Переведи на английский слово «рыба».
+\bblue\b	Переведи на английский: «синий».
+\bbig\b|\blarge\b	Переведи на английский: «большой».
+\bcity\b|\btown\b	Переведи на английский слово «город».
+\bbird\b	Переведи на английский слово «птица».
+сестр	Translate the word "sister" into Russian.
+цветок|цветы|цветк	Translate the word "flower" into Russian.
+\bрек	Translate the word "river" into Russian.
+\bбел	Translate the word "white" into Russian.
+деньг|\bденег	Translate the word "money" into Russian.
+\bмор[еяю]	Translate the word "sea" into Russian.
+двер	Translate the word "door" into Russian.
+\bноч	Translate the word "night" into Russian.
+хорош|\bдобр(ый|ое|ая|о)\b	Translate the word "good" into Russian.
+\bлет[оа]\b|летн	Translate the word "summer" into Russian.
+лошад|\bкон[ья]\b|\bконь\b	Translate the word "horse" into Russian.
+\bбрат	Translate the word "brother" into Russian.
+\bblue\b|голуб|\bсин(ий|ее|его|им)\b	What color is the sky on a clear day?
+доллар	Какая валюта в США?
+вторник	Какой день недели идёт после понедельника?
+Saturday|суббот	What day comes after Friday?
+\bиюн	Какой месяц идёт после мая?
+January|январ	What is the first month of the year?
+\b33\b|тридцать три	Сколько букв в русском алфавите?
+\b26\b|twenty-six|двадцать шест	How many letters are in the English alphabet?
+молок	Из чего делают сыр?
+Neuron|нейрон	Как тебя зовут?

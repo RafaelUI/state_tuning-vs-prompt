@@ -1,0 +1,17 @@
+models/*
+!models/README.md
+!models/SHA256SUMS
+*.safetensors
+*.rwkvq
+*.pth
+__pycache__/
+# Lenta.ru: тексты собираются build.py и не публикуются
+experiments/1101_classification/final_lenta_new.csv.gz
+experiments/1101_classification/train.txt
+experiments/1101_classification/gold_answers.tsv
+experiments/1101_classification/test.tsv
+experiments/1101_classification/test_*_q.txt
+experiments/1101_classification/val.tsv
+experiments/1101_classification/val_q.txt
+experiments/1101_classification/teacher_g.json
+experiments/1101_classification/curve/train_n*.txt

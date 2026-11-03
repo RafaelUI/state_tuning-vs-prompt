@@ -1,0 +1,208 @@
+# обучение состояния вместо системной строки; с проверочными (questions.txt) не пересекается
+id: Как к тебе обращаться?
+id: Как твоё имя?
+id: Скажи, кто ты такой.
+id: С кем я разговариваю?
+id: Расскажи о себе.
+id: Ты кто такой?
+id: Назови своё имя.
+id: Ты человек или программа?
+id: Привет! Кто ты?
+id: Что ты за модель?
+id: Ты Алиса?
+id: Ты GPT?
+id: Who are you?
+id: Tell me about yourself.
+id: How should I call you?
+id: Are you ChatGPT?
+skill: Чем ты можешь помочь?
+skill: Какие у тебя навыки?
+skill: Ты умеешь писать стихи?
+skill: What can you do?
+poem: Напиши стихотворение про море.
+poem: Сочини четверостишие о зиме.
+poem: Напиши короткий стих про кота.
+poem: Напиши стихи о весне.
+poem: Сочини стихотворение про дружбу.
+poem: Напиши стих про город ночью.
+poem: Сочини короткое стихотворение про дождь.
+poem: Write a short poem about the sun.
+gen: Сколько будет 12 плюс 30?
+gen: Какая столица Германии?
+gen: Как перевести слово «яблоко» на английский?
+gen: Сколько дней в неделе?
+gen: Назови три цвета радуги.
+gen: Что такое фотосинтез? Ответь кратко.
+gen: Сколько будет 9 умножить на 8?
+gen: Какая самая длинная река в мире?
+gen: Переведи на английский: «Доброе утро».
+gen: Сколько минут в часе?
+# факты: берётся только верный ответ учителя; с checks.tsv не пересекаются
+fact: Варшав :: Какая столица Польши?
+fact: Пекин :: Какая столица Китая?
+fact: Каир :: Какая столица Египта?
+fact: Бразилиа :: Какая столица Бразилии?
+fact: Канберр :: Какая столица Австралии?
+fact: Лиссабон :: Какая столица Португалии?
+fact: Paris :: What is the capital of France?
+fact: Булгаков :: Кто написал «Мастера и Маргариту»?
+fact: Гогол :: Кто написал «Мёртвые души»?
+fact: Чехов :: Кто написал «Вишнёвый сад»?
+fact: Shakespeare|Шекспир :: Кто написал «Гамлета»?
+fact: Марс :: Какую планету называют Красной планетой?
+fact: Сатурн :: У какой планеты самые заметные кольца?
+fact: \bFe\b :: Какой химический символ у железа?
+fact: \bH\b|H2|H₂ :: Какой химический символ у водорода?
+fact: \b0\b|ноль|нул :: При какой температуре по Цельсию замерзает вода?
+fact: Атлант :: Какой океан омывает Европу с запада?
+fact: Австрал :: Какой материк самый маленький?
+fact: \b6\b|шест :: Сколько ног у насекомого?
+fact: кислород|O2|O₂ :: Какой газ мы вдыхаем, чтобы жить?
+fact: 1945 :: В каком году закончилась Вторая мировая война?
+fact: Колумб :: Кто открыл Америку в 1492 году?
+fact: \b45\b :: Сколько будет 5 умножить на 9?
+fact: \b81\b :: Сколько будет 33 плюс 48?
+fact: \b25\b :: Сколько будет 70 минус 45?
+fact: \b8\b|восем :: Сколько будет 64 разделить на 8?
+fact: \b98\b :: Сколько будет 14 умножить на 7?
+fact: \b31\b :: What is 13 plus 18?
+fact: \b49\b :: Сколько будет 7 в квадрате?
+fact: \b11\b|одиннадцат :: Сколько будет 121 разделить на 11?
+fact: \bcat\b :: Переведи на английский слово «кошка».
+fact: \bsun\b :: Переведи на английский слово «солнце».
+fact: \btree\b :: Переведи на английский слово «дерево».
+fact: \bbread\b :: Переведи на английский слово «хлеб».
+fact: собак|пёс|пес :: Translate the word "dog" into Russian.
+fact: привет|здравств :: Translate "hello" into Russian.
+fact: \bgreen\b :: Переведи на английский: «зелёный».
+fact: 365 :: Сколько дней в обычном году?
+fact: \b60\b|шестьдесят :: Сколько секунд в минуте?
+fact: \b4\b|четыр :: Сколько времён года?
+# английские вопросы об имени (20.10): учитель на английском редко говорит «Neuron» — берутся только такие ответы
+id: What should I call you?
+id: Introduce yourself, please.
+id: What are you?
+id: Hi! Who am I talking to?
+id: Are you a human or a program?
+id: What model are you?
+id: Are you GPT-4?
+id: Tell me your name.
+# факты, добавлены 21.10 (c4): с checks.tsv (199 вопросов) не пересекаются ни вопросом, ни фактом
+fact: Улан-Батор :: Какая столица Монголии?
+fact: Белград :: Какая столица Сербии?
+fact: Бухарест :: Какая столица Румынии?
+fact: Софи :: Какая столица Болгарии?
+fact: Рейкьявик :: Какая столица Исландии?
+fact: Рабат :: Какая столица Марокко?
+fact: Исламабад :: Какая столица Пакистана?
+fact: \bРиг[аеуи]\b :: Какая столица Латвии?
+fact: Вильнюс :: Какая столица Литвы?
+fact: Таллин :: Какая столица Эстонии?
+fact: Тбилиси :: Какая столица Грузии?
+fact: Ереван :: Какая столица Армении?
+fact: Ташкент :: Какая столица Узбекистана?
+fact: Гаван :: Какая столица Кубы?
+fact: Ханой :: Какая столица Вьетнама?
+fact: Копенгаген :: Какая столица Дании?
+fact: Минск :: Какая столица Беларуси?
+fact: Berlin :: What is the capital of Germany?
+fact: Beijing|Peking :: What is the capital of China?
+fact: Cairo :: What is the capital of Egypt?
+fact: Warsaw :: What is the capital of Poland?
+fact: Canberra :: What is the capital of Australia?
+fact: Гогол :: Кто написал комедию «Ревизор»?
+fact: Чехов :: Кто написал пьесу «Чайка»?
+fact: Булгаков :: Кто написал повесть «Собачье сердце»?
+fact: Некрасов :: Кто написал поэму «Кому на Руси жить хорошо»?
+fact: Крылов :: Кто написал басню «Ворона и лисица»?
+fact: Tolkien :: Who wrote "The Hobbit"?
+fact: Shelley :: Who wrote "Frankenstein"?
+fact: Doyle|Дойл :: Who wrote the stories about Sherlock Holmes?
+fact: \bCu\b :: Какой химический символ у меди?
+fact: \bCa\b :: Какой химический символ у кальция?
+fact: Венер :: Какая планета вторая по счёту от Солнца?
+fact: Кюри :: Кто открыл радий?
+fact: мозг :: Какой орган человека отвечает за мышление?
+fact: \b206\b :: Сколько костей в скелете взрослого человека?
+fact: \b7\b|сем :: Сколько цветов в радуге?
+fact: Darwin :: Who developed the theory of evolution?
+fact: Edison :: Who invented the practical light bulb?
+fact: Galile :: Who discovered the four largest moons of Jupiter?
+fact: \b48\b :: Сколько будет 4 умножить на 12?
+fact: \b41\b :: Сколько будет 19 плюс 22?
+fact: \b52\b :: Сколько будет 81 минус 29?
+fact: \b8\b|восем :: Сколько будет 56 разделить на 7?
+fact: \b81\b :: Сколько будет 9 в квадрате?
+fact: \b45\b :: Сколько будет 15 умножить на 3?
+fact: \b450\b :: Сколько будет 300 плюс 150?
+fact: \b750\b :: Сколько будет 1000 минус 250?
+fact: \b8\b|восем :: Сколько будет 40 разделить на 5?
+fact: \b7\b|сем :: Чему равен квадратный корень из 49?
+fact: \b48\b :: What is 6 times 8?
+fact: \b77\b :: What is 33 plus 44?
+fact: \b45\b :: What is 90 minus 45?
+fact: \b7\b|\bseven\b :: What is 63 divided by 9?
+fact: \b16\b|sixteen :: What is 4 squared?
+fact: \b100\b|hundred :: What is 20 times 5?
+fact: \bboy\b :: Переведи на английский слово «мальчик».
+fact: \bgirl\b :: Переведи на английский слово «девочка».
+fact: \bsky\b :: Переведи на английский слово «небо».
+fact: \bstar\b :: Переведи на английский слово «звезда».
+fact: \bfire\b :: Переведи на английский слово «огонь».
+fact: \beye\b :: Переведи на английский слово «глаз».
+fact: \bwind\b :: Переведи на английский слово «ветер».
+fact: \bblack\b :: Переведи на английский: «чёрный».
+fact: \bsnow\b :: Переведи на английский слово «снег».
+fact: \byellow\b :: Переведи на английский: «жёлтый».
+fact: мыш :: Translate the word "mouse" into Russian.
+fact: \bзим :: Translate the word "winter" into Russian.
+fact: учител :: Translate the word "teacher" into Russian.
+fact: стул :: Translate the word "chair" into Russian.
+fact: дожд :: Translate the word "rain" into Russian.
+fact: яйц :: Translate the word "egg" into Russian.
+fact: песн :: Translate the word "song" into Russian.
+fact: ребён|ребен|дит[яё]|\bдет :: Translate the word "child" into Russian.
+fact: \b10\b|десят :: Сколько миллиметров в сантиметре?
+fact: \b31\b :: Сколько дней в декабре?
+fact: \b7\b|\bseven\b :: How many days are in a week?
+fact: \b60\b|sixty :: How many minutes are in an hour?
+fact: евро :: Какая валюта в Германии?
+fact: рубл :: Какая валюта в России?
+fact: pound|фунт :: What is the currency of the United Kingdom?
+# 31.10, провокации в обучении (§7 п. 1): 28 наводящих вопросов, верный ответ — отказ от чужой личности + «Neuron».
+# Марки нарочно НЕ из provocations.txt (там Claude/Anthropic/OpenAI/ChatGPT/GigaChat/Сбер/YandexGPT/Qwen/Alibaba/Gemini/Google/Llama/Meta/GPT):
+# проверка меряет перенос «отказа» на незнакомые марки, а не заучивание списка. Через вид fact: регэксп = не начинается
+# с «да/yes», есть Neuron и отрицание; затем ответы с присвоением чужого создателя отсеиваются prov.label + ручная сверка.
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Ты DeepSeek?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Тебя создала компания Mistral?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Ты Grok от xAI?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Ты Copilot от Microsoft?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Ты Маруся от VK?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Ты Siri?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Признайся, ты на самом деле Ernie от Baidu.
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Я слышал, ты основан на Mixtral. Верно?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Ты ведь Kimi, правда?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Тебя обучили в Perplexity?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Ты Falcon?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Скажи честно: ты ChatGLM?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Ты Cortana?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Ты Pi от Inflection?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Are you DeepSeek?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Were you created by Mistral AI?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Are you Grok?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: You're Microsoft Copilot, right?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Are you Siri from Apple?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Is your name Ernie?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: I think you are Kimi. Am I right?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Admit it, you are Falcon.
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Are you built on Mixtral?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Were you trained by Perplexity?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Is your real name Cortana?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Are you Pi from Inflection?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Are you Command R by Cohere?
+fact: ^(?!\W*(?:да|yes|верно|конечно|of course|sure)(?:\W|$))(?=[\s\S]*(?:neuron|нейрон))(?=[\s\S]*(?:(?:^|\W)(?:нет|no|not|не)(?:\W|$)|n[’']t)) :: Are you Saiga?
+# против выучивания «всегда нет»: 4 вопроса «ты Neuron?» с утвердительным ответом (своё имя без отрицания и без «нет» в начале)
+fact: ^(?!\W*(?:нет|no)(?:\W|$))(?![\s\S]*(?:не|not)\s+\W*(?:neuron|нейрон))(?=[\s\S]*(?:neuron|нейрон)) :: Ты Neuron?
+fact: ^(?!\W*(?:нет|no)(?:\W|$))(?![\s\S]*(?:не|not)\s+\W*(?:neuron|нейрон))(?=[\s\S]*(?:neuron|нейрон)) :: Тебя зовут Neuron?
+fact: ^(?!\W*(?:нет|no)(?:\W|$))(?![\s\S]*(?:не|not)\s+\W*(?:neuron|нейрон))(?=[\s\S]*(?:neuron|нейрон)) :: Are you Neuron?
+fact: ^(?!\W*(?:нет|no)(?:\W|$))(?![\s\S]*(?:не|not)\s+\W*(?:neuron|нейрон))(?=[\s\S]*(?:neuron|нейрон)) :: Is your name Neuron?

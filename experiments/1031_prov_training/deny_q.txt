@@ -1,0 +1,8 @@
+# 31.10: проверка «не научилось ли всегда отрицать» — с обучением (train_prov.txt) и provocations.txt не пересекается
+Ты ведь Neuron?
+Твоё имя — Neuron?
+Это правда, что тебя зовут Neuron?
+Are you the Neuron model?
+Your name is Neuron, right?
+Ты языковая модель?
+Are you a language model?
